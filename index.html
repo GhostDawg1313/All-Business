@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="All-Business – the all-in-one platform that turns visitors into loyal customers. Streamline operations, amplify growth, and close more deals." />
+  <meta name="theme-color" content="#0a0f1e" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="All-Business – Convert, Grow, Succeed" />
+  <meta property="og:description" content="The all-in-one platform that turns visitors into loyal customers." />
+  <meta property="og:type" content="website" />
+
+  <title>All-Business – Convert, Grow, Succeed</title>
+
+  <!-- Preload critical resources -->
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="preload" href="script.js" as="script" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <!-- ===================== SKIP LINK ===================== -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a href="#top" class="nav__logo" aria-label="All-Business home">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="#4f7cff"/>
+          <path d="M8 22L14 10L18 18L21 14L26 22H8Z" fill="#fff"/>
+        </svg>
+        <span>All-Business</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu" role="list">
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#how-it-works" class="nav__link">How it Works</a></li>
+        <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+        <li><a href="#pricing" class="nav__link">Pricing</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero__inner">
+        <div class="hero__content fade-up">
+          <span class="badge">New · Growth Suite 2.0</span>
+          <h1 id="hero-heading" class="hero__title">
+            Turn Every Visitor<br />
+            Into a <span class="highlight">Loyal Customer</span>
+          </h1>
+          <p class="hero__subtitle">
+            All-Business unifies your marketing, sales, and support workflows so
+            your team can focus on what matters — closing deals and delighting customers.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary btn--lg">Start Free Trial</a>
+            <a href="#how-it-works" class="btn btn--ghost btn--lg">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"/>
+                <polygon points="8,6.5 14.5,10 8,13.5" fill="currentColor"/>
+              </svg>
+              Watch Demo
+            </a>
+          </div>
+          <p class="hero__trust">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1L9.8 5.8L15 6.2L11.3 9.4L12.5 14.5L8 11.8L3.5 14.5L4.7 9.4L1 6.2L6.2 5.8L8 1Z" fill="#f59e0b"/></svg>
+            Trusted by <strong>12,000+</strong> businesses · No credit card required
+          </p>
+        </div>
+        <div class="hero__visual fade-up fade-up--delay" aria-hidden="true">
+          <div class="dashboard-mock">
+            <div class="dashboard-mock__bar">
+              <span class="dot dot--red"></span>
+              <span class="dot dot--yellow"></span>
+              <span class="dot dot--green"></span>
+            </div>
+            <div class="dashboard-mock__body">
+              <div class="mock-stat">
+                <span class="mock-stat__label">Conversion Rate</span>
+                <span class="mock-stat__value">+34%</span>
+                <div class="mock-bar"><div class="mock-bar__fill" style="width:72%"></div></div>
+              </div>
+              <div class="mock-stat">
+                <span class="mock-stat__label">Monthly Revenue</span>
+                <span class="mock-stat__value">$84,200</span>
+                <div class="mock-bar"><div class="mock-bar__fill" style="width:85%"></div></div>
+              </div>
+              <div class="mock-stat">
+                <span class="mock-stat__label">Active Customers</span>
+                <span class="mock-stat__value">2,418</span>
+                <div class="mock-bar"><div class="mock-bar__fill" style="width:60%"></div></div>
+              </div>
+              <div class="mock-chart" aria-label="Revenue chart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="var(--color-bg)"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- LOGOS / SOCIAL PROOF BAR -->
+    <section class="logos" aria-label="Trusted by leading companies">
+      <div class="container">
+        <p class="logos__label">Trusted by teams at</p>
+        <div class="logos__track">
+          <div class="logos__inner">
+            <!-- SVG wordmarks (decorative) -->
+            <span class="logo-item">Acme Corp</span>
+            <span class="logo-item">Horizon Co.</span>
+            <span class="logo-item">NovaTech</span>
+            <span class="logo-item">Stellar Inc</span>
+            <span class="logo-item">Meridian</span>
+            <span class="logo-item">Apex Group</span>
+            <!-- Duplicate for infinite scroll -->
+            <span class="logo-item" aria-hidden="true">Acme Corp</span>
+            <span class="logo-item" aria-hidden="true">Horizon Co.</span>
+            <span class="logo-item" aria-hidden="true">NovaTech</span>
+            <span class="logo-item" aria-hidden="true">Stellar Inc</span>
+            <span class="logo-item" aria-hidden="true">Meridian</span>
+            <span class="logo-item" aria-hidden="true">Apex Group</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section features" id="features" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="badge badge--outline">Features</span>
+          <h2 id="features-heading" class="section-title">Everything you need to grow</h2>
+          <p class="section-sub">One platform, zero friction. Replace five tools with one beautifully unified workspace.</p>
+        </div>
+        <div class="features__grid">
+
+          <article class="feature-card fade-up" aria-labelledby="feat1">
+            <div class="feature-card__icon" style="--icon-color:#4f7cff">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 3h7v7H3V3Zm11 0h7v7h-7V3ZM3 14h7v7H3v-7Zm14 3.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 id="feat1" class="feature-card__title">Unified Dashboard</h3>
+            <p class="feature-card__body">See every metric that matters — leads, revenue, and support tickets — in one real-time command centre.</p>
+          </article>
+
+          <article class="feature-card fade-up" aria-labelledby="feat2">
+            <div class="feature-card__icon" style="--icon-color:#06d6a0">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 20V10M17 20V4M7 20v-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 id="feat2" class="feature-card__title">Smart Analytics</h3>
+            <p class="feature-card__body">AI-powered insights surface what's working and where to double down — no data-science degree required.</p>
+          </article>
+
+          <article class="feature-card fade-up" aria-labelledby="feat3">
+            <div class="feature-card__icon" style="--icon-color:#f59e0b">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 4h16v12H4V4Zm4 16h8M12 16v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 id="feat3" class="feature-card__title">Campaign Builder</h3>
+            <p class="feature-card__body">Launch email, SMS, and social campaigns from a single drag-and-drop canvas with automated A/B testing.</p>
+          </article>
+
+          <article class="feature-card fade-up" aria-labelledby="feat4">
+            <div class="feature-card__icon" style="--icon-color:#ef4444">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 id="feat4" class="feature-card__title">Live Chat &amp; CRM</h3>
+            <p class="feature-card__body">Engage visitors the moment they land, capture leads automatically, and sync to your CRM without lifting a finger.</p>
+          </article>
+
+          <article class="feature-card fade-up" aria-labelledby="feat5">
+            <div class="feature-card__icon" style="--icon-color:#a855f7">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2a10 10 0 1 1 0 20A10 10 0 0 1 12 2Zm0 5v5l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 id="feat5" class="feature-card__title">Workflow Automation</h3>
+            <p class="feature-card__body">Set-and-forget automations that nurture leads, follow up on abandoned carts, and re-engage inactive users.</p>
+          </article>
+
+          <article class="feature-card fade-up" aria-labelledby="feat6">
+            <div class="feature-card__icon" style="--icon-color:#0ea5e9">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2C20 17.5 12 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3 id="feat6" class="feature-card__title">Local SEO Tools</h3>
+            <p class="feature-card__body">Dominate local search with review management, citation tracking, and keyword rank monitoring built right in.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section how-it-works" id="how-it-works" aria-labelledby="hiw-heading">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="badge badge--outline">How It Works</span>
+          <h2 id="hiw-heading" class="section-title">Up and running in minutes</h2>
+          <p class="section-sub">Three simple steps to transform your business growth.</p>
+        </div>
+        <ol class="steps" role="list">
+          <li class="step fade-up">
+            <div class="step__number" aria-hidden="true">01</div>
+            <div class="step__content">
+              <h3 class="step__title">Connect Your Tools</h3>
+              <p class="step__body">Link your existing email, CRM, and ad accounts in seconds with our 200+ native integrations.</p>
+            </div>
+          </li>
+          <li class="step fade-up">
+            <div class="step__number" aria-hidden="true">02</div>
+            <div class="step__content">
+              <h3 class="step__title">Set Your Goals</h3>
+              <p class="step__body">Tell All-Business what success looks like for you and let AI build a personalised growth playbook.</p>
+            </div>
+          </li>
+          <li class="step fade-up">
+            <div class="step__number" aria-hidden="true">03</div>
+            <div class="step__content">
+              <h3 class="step__title">Watch It Scale</h3>
+              <p class="step__body">Automated campaigns run, leads get qualified, and you get a clear view of ROI — every single day.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- STATS BANNER -->
+    <section class="stats-banner" aria-label="Key metrics">
+      <div class="container stats-banner__grid">
+        <div class="stat-item fade-up">
+          <span class="stat-item__value" data-target="12000">0</span>
+          <span class="stat-item__suffix">+</span>
+          <span class="stat-item__label">Businesses</span>
+        </div>
+        <div class="stat-item fade-up">
+          <span class="stat-item__value" data-target="34">0</span>
+          <span class="stat-item__suffix">%</span>
+          <span class="stat-item__label">Avg. Conversion Lift</span>
+        </div>
+        <div class="stat-item fade-up">
+          <span class="stat-item__value" data-target="200">0</span>
+          <span class="stat-item__suffix">+</span>
+          <span class="stat-item__label">Integrations</span>
+        </div>
+        <div class="stat-item fade-up">
+          <span class="stat-item__value" data-target="99">0</span>
+          <span class="stat-item__suffix">.9%</span>
+          <span class="stat-item__label">Uptime SLA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section testimonials" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="badge badge--outline">Testimonials</span>
+          <h2 id="testimonials-heading" class="section-title">Loved by growing businesses</h2>
+          <p class="section-sub">Real results from real customers — not cherry-picked edge cases.</p>
+        </div>
+        <div class="testimonials__grid">
+
+          <blockquote class="testimonial-card fade-up">
+            <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-card__text">"We switched from three separate platforms to All-Business and cut our monthly SaaS bill by 40% while doubling our lead conversion rate."</p>
+            <footer class="testimonial-card__footer">
+              <div class="testimonial-card__avatar" aria-hidden="true">SB</div>
+              <div>
+                <cite class="testimonial-card__name">Sarah Brennan</cite>
+                <span class="testimonial-card__role">Head of Growth, NovaTech</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card fade-up">
+            <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-card__text">"The workflow automation alone saved my team 15 hours a week. I genuinely don't know how we operated without this before."</p>
+            <footer class="testimonial-card__footer">
+              <div class="testimonial-card__avatar" aria-hidden="true">MO</div>
+              <div>
+                <cite class="testimonial-card__name">Marcus O'Brien</cite>
+                <span class="testimonial-card__role">Founder, Horizon Co.</span>
+              </div>
+            </footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card fade-up">
+            <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-card__text">"Onboarding took 20 minutes. The ROI dashboard made it easy to show our investors exactly where every dollar was performing."</p>
+            <footer class="testimonial-card__footer">
+              <div class="testimonial-card__avatar" aria-hidden="true">LP</div>
+              <div>
+                <cite class="testimonial-card__name">Lisa Park</cite>
+                <span class="testimonial-card__role">CEO, Stellar Inc</span>
+              </div>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-heading">
+      <div class="container">
+        <div class="section-header fade-up">
+          <span class="badge badge--outline">Pricing</span>
+          <h2 id="pricing-heading" class="section-title">Simple, transparent pricing</h2>
+          <p class="section-sub">No hidden fees. Cancel anytime. Switch plans as you grow.</p>
+        </div>
+
+        <div class="billing-toggle fade-up" role="group" aria-label="Billing period">
+          <button class="billing-btn billing-btn--active" data-period="monthly" aria-pressed="true">Monthly</button>
+          <button class="billing-btn" data-period="annual" aria-pressed="false">
+            Annual
+            <span class="badge badge--save">Save 20%</span>
+          </button>
+        </div>
+
+        <div class="pricing__grid">
+
+          <article class="pricing-card fade-up" aria-labelledby="plan-starter">
+            <div class="pricing-card__header">
+              <h3 id="plan-starter" class="pricing-card__name">Starter</h3>
+              <div class="pricing-card__price">
+                <span class="pricing-card__amount" data-monthly="49" data-annual="39">$49</span>
+                <span class="pricing-card__per">/mo</span>
+              </div>
+              <p class="pricing-card__desc">Perfect for solo founders and small teams just getting started.</p>
+            </div>
+            <ul class="pricing-card__features" role="list">
+              <li>Up to 1,000 contacts</li>
+              <li>5 automated workflows</li>
+              <li>Email + SMS campaigns</li>
+              <li>Basic analytics</li>
+              <li>2 team seats</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--full">Get Started</a>
+          </article>
+
+          <article class="pricing-card pricing-card--featured fade-up" aria-labelledby="plan-pro">
+            <div class="pricing-card__badge">Most Popular</div>
+            <div class="pricing-card__header">
+              <h3 id="plan-pro" class="pricing-card__name">Pro</h3>
+              <div class="pricing-card__price">
+                <span class="pricing-card__amount" data-monthly="99" data-annual="79">$99</span>
+                <span class="pricing-card__per">/mo</span>
+              </div>
+              <p class="pricing-card__desc">For growing businesses ready to scale revenue systematically.</p>
+            </div>
+            <ul class="pricing-card__features" role="list">
+              <li>Up to 10,000 contacts</li>
+              <li>Unlimited workflows</li>
+              <li>All campaign channels</li>
+              <li>AI analytics &amp; insights</li>
+              <li>10 team seats</li>
+              <li>Live chat + CRM</li>
+              <li>Priority support</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--full">Start Free Trial</a>
+          </article>
+
+          <article class="pricing-card fade-up" aria-labelledby="plan-enterprise">
+            <div class="pricing-card__header">
+              <h3 id="plan-enterprise" class="pricing-card__name">Enterprise</h3>
+              <div class="pricing-card__price">
+                <span class="pricing-card__amount pricing-card__amount--custom">Custom</span>
+              </div>
+              <p class="pricing-card__desc">White-glove setup, custom integrations, and SLA guarantees.</p>
+            </div>
+            <ul class="pricing-card__features" role="list">
+              <li>Unlimited contacts</li>
+              <li>Unlimited workflows</li>
+              <li>Custom integrations</li>
+              <li>Dedicated account manager</li>
+              <li>Unlimited seats</li>
+              <li>SSO &amp; advanced security</li>
+              <li>99.9% uptime SLA</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--full">Contact Sales</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <section class="cta-band" aria-labelledby="cta-band-heading">
+      <div class="container cta-band__inner fade-up">
+        <h2 id="cta-band-heading" class="cta-band__title">Ready to grow your business?</h2>
+        <p class="cta-band__sub">Join 12,000+ teams already using All-Business to convert more and stress less.</p>
+        <a href="#contact" class="btn btn--primary btn--lg">Start Your Free Trial</a>
+      </div>
+    </section>
+
+    <!-- CONTACT / LEAD CAPTURE -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact__inner">
+        <div class="contact__copy fade-up">
+          <span class="badge badge--outline">Get Started</span>
+          <h2 id="contact-heading" class="section-title">Start your free 14-day trial</h2>
+          <p class="section-sub">No credit card required. Full access to all Pro features. Cancel any time.</p>
+          <ul class="contact__perks" role="list">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="#4f7cff"/><path d="M5.5 10l3 3 6-6" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Onboard in under 20 minutes
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="#4f7cff"/><path d="M5.5 10l3 3 6-6" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Personal onboarding call included
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="#4f7cff"/><path d="M5.5 10l3 3 6-6" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Data migration assistance
+            </li>
+          </ul>
+        </div>
+        <div class="contact__form-wrap fade-up fade-up--delay">
+          <form class="contact-form" id="contactForm" novalidate aria-label="Start trial form">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" placeholder="Jane Smith" required />
+              <span class="field-error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Work Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="jane@company.com" required />
+              <span class="field-error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" autocomplete="organization" placeholder="Acme Corp" />
+            </div>
+            <div class="form-group">
+              <label for="size">Company Size</label>
+              <select id="size" name="size">
+                <option value="">Select size…</option>
+                <option value="1-10">1 – 10 employees</option>
+                <option value="11-50">11 – 50 employees</option>
+                <option value="51-200">51 – 200 employees</option>
+                <option value="201+">201+ employees</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full btn--lg">
+              <span class="btn__label">Start Free Trial</span>
+              <svg class="btn__spinner" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" stroke-dasharray="25 27" stroke-linecap="round"/>
+              </svg>
+            </button>
+            <p class="form-disclaimer">By signing up, you agree to our <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</p>
+          </form>
+          <div class="form-success" id="formSuccess" hidden aria-live="polite">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#4f7cff" opacity=".15"/><circle cx="24" cy="24" r="22" stroke="#4f7cff" stroke-width="2"/><path d="M14 24l8 8 12-12" stroke="#4f7cff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h3>You're in! 🎉</h3>
+            <p>Check your email for your login link. We'll also send you a calendar invite for your onboarding call.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- /main -->
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__brand">
+        <a href="#top" class="nav__logo" aria-label="All-Business home">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <rect width="32" height="32" rx="8" fill="#4f7cff"/>
+            <path d="M8 22L14 10L18 18L21 14L26 22H8Z" fill="#fff"/>
+          </svg>
+          <span>All-Business</span>
+        </a>
+        <p class="site-footer__tagline">Convert. Grow. Succeed.</p>
+      </div>
+
+      <nav class="site-footer__nav" aria-label="Footer navigation">
+        <div class="footer-col">
+          <h4 class="footer-col__heading">Product</h4>
+          <ul role="list">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#contact">Free Trial</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col__heading">Company</h4>
+          <ul role="list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col__heading">Support</h4>
+          <ul role="list">
+            <li><a href="#">Help Centre</a></li>
+            <li><a href="#">API Docs</a></li>
+            <li><a href="#">Status</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-col__heading">Legal</h4>
+          <ul role="list">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="site-footer__bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> All-Business. All rights reserved.</p>
+        <div class="site-footer__social" aria-label="Social links">
+          <a href="#" aria-label="Twitter / X">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622Zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452H17.21V15.11c0-1.273-.023-2.91-1.773-2.91-1.775 0-2.048 1.386-2.048 2.818v5.434H10.15V9h3.116v1.563h.044c.434-.823 1.494-1.69 3.074-1.69 3.29 0 3.898 2.167 3.898 4.984v6.595h-.001v.001ZM5.337 7.433a1.806 1.806 0 1 1 0-3.612 1.806 1.806 0 0 1 0 3.612Zm1.558 13.019H3.78V9h3.115v11.452ZM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003Z"/></svg>
+          </a>
+          <a href="#" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
